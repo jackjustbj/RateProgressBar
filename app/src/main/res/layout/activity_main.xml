@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <me.jgeekdev.rateprogressbar.RateProgressBar
+        android:id="@+id/rateProgress"
+        android:layout_width="125dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rpbCompleteText="下载完成"
+        app:rpbInitText="在线畅读"
+        app:rpbMax="100"
+        app:rpbProgressColor="#2CBAFF"
+        app:rpbStrokeColor="#2CBAFF"
+        app:rpbStrokeWidth="1dp"
+        app:rpbTextColor="#2CBAFF"
+        app:rpbTextCoverColor="#FFFFFF"
+        app:rpbTextSize="14sp" />
+
+    <EditText
+        android:id="@+id/numInput"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:inputType="number"
+        android:textColor="#111111"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/rateProgress"
+        app:layout_constraintTop_toBottomOf="@+id/rateProgress" />
+
+    <Button
+        android:id="@+id/tryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="try"
+        android:textColor="#111111"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/numInput"
+        app:layout_constraintTop_toTopOf="@+id/numInput" />
+
+</android.support.constraint.ConstraintLayout>

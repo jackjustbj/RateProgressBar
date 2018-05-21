@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RateProgressBar">
+        <attr name="rpbProgressBgColor" format="reference|color" />
+        <attr name="rpbStrokeColor" format="reference|color" />
+        <attr name="rpbStrokeWidth" format="reference|dimension" />
+        <attr name="rpbProgressColor" format="reference|color" />
+        <attr name="rpbProgressStartColor" format="reference|color" />
+        <attr name="rpbProgressEndColor" format="reference|color" />
+        <attr name="rpbProgressGradient" format="boolean" />
+        <attr name="rpbProgressInside" format="boolean" />
+        <attr name="rpbTextColor" format="reference|color" />
+        <attr name="rpbTextCoverColor" format="reference|color" />
+        <attr name="rpbTextSize" format="reference|dimension" />
+        <attr name="rpbInitText" format="reference|string" />
+        <attr name="rpbCompleteText" format="reference|string" />
+        <attr name="rpbMax" format="integer" />
+        <attr name="rpbProgress" format="integer" />
+        <attr name="rpbShowRate" format="boolean" />
+    </declare-styleable>
+
+</resources>
